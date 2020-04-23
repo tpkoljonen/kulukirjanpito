@@ -11,7 +11,7 @@ function Items(props) {
 
     let rows = props.data.map(invoice => {
         return (
-          <Kulukortti data={invoice} />
+          <Kulukortti data={invoice} key={invoice.id} />
         );
       }
     );
@@ -19,7 +19,7 @@ function Items(props) {
     return (
       <Content>
         <div style={{paddingBottom: '4rem'}}>
-          {rows}
+        {rows}
         </div>
         <Link to="/add"><FloatingButton secondary>+</FloatingButton></Link>
       </Content>
