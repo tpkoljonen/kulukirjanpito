@@ -18,7 +18,7 @@ function EditItem(props) {
 
         <h2>Kulun muokkkaaminen</h2>
 
-        <ItemForm onFormSubmit = {props.onFormSubmit} selectList={props.selectList} data={itemData} />
+        <ItemForm onFormSubmit = {props.onFormSubmit} selectList={props.selectList} data={itemData} onDeleteItem={props.onDeleteItem} />
 
         </div>
 
