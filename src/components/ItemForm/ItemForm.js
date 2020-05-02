@@ -13,9 +13,9 @@ class ItemForm extends React.Component {
         const data = props.data ? props.data : {
           tyyppi: "Vesi",
           summa: 0,
-          maksupaiva: undefined,
-          kaudenalku: undefined,
-          kaudenloppu: undefined,
+          maksupaiva: "",
+          kaudenalku: "",
+          kaudenloppu: "",
           saaja: ""
         }
         this.state = {
