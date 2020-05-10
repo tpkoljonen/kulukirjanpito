@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Kulukirjanpito App",
+  "name": "Kulukirjanpito",
   "icons": [
     {
       "src": "favicon.ico",
