@@ -41,8 +41,8 @@ function Stats(props) {
           label: "kulut",
           data: linedata,
           fill: false,
-          backgroundColor: 'rgba(0,0,0,0.2)',
-          borderColor: 'rgba(0,0,0,0.1)'
+          backgroundColor: 'rgba(0,0,0,0.5)',
+          borderColor: 'rgba(0,0,0,0.3)'
         }
       ]
     }
